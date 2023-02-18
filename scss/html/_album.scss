@@ -50,3 +50,12 @@
         }
     }
 }
+
+@media screen and (min-width:1024px){
+    .container-album{
+        main{
+            display: flex;
+        }
+    }
+    
+}

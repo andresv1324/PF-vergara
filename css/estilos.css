@@ -115,6 +115,10 @@ header {
   .container-album .canciones-base2 {
     display: none; } }
 
+@media screen and (min-width: 1024px) {
+  .container-album main {
+    display: flex; } }
+
 /* Estilos Generales del Footer*/
 footer .pie-pagina {
   background-color: #313A59;
