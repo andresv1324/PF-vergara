@@ -1,0 +1,49 @@
+// Estilos Genrales del Menu
+
+
+header{
+    color: black;
+    .bg-success {
+        --bs-bg-opacity: 1;
+        background-color: rgba(49, 58, 89, 1) !important;
+    }
+    .border-success {
+        --bs-border-opacity: 1;
+        border-color:rgb(77, 83, 197) !important;
+    }
+    nav{
+        padding: 0px !important;
+        
+        div{
+            height: 70px;
+            a{
+                .logo{
+                    height: 50px;
+                    width: 50px;
+                    margin-right: 2em;
+                    filter: drop-shadow( 3px 3px 3px black);
+                }
+                h1{
+                    font-size: 1.0em;
+                }
+            }
+            div{
+                justify-content: end;
+                background-color: rgba(49, 58, 89, 0.932) !important;
+                z-index: 2;
+                ul{
+                    li{
+                        background-color: #797eb9;
+                        padding: 10px;
+                        margin: 15px;
+                        border-radius: 25px;
+                        z-index: 2;
+                        .nav-link{
+                            padding: 0em;
+                        } 
+                    }
+                }
+            }
+        }
+    }
+}
