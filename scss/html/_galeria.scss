@@ -1,0 +1,115 @@
+/* Estilos Galeria Celulares*/
+@media screen and (min-width: 320px) {
+    .container-galeria{
+        div{
+            main{
+                margin: 0.8em;
+                filter: drop-shadow( 3px 0px 7px black);
+            }
+        }
+        
+        .base-img{
+            div{
+                display: flex;
+                justify-content: center;
+                margin-bottom: 1.5em;
+
+                img{
+                    border: solid #313A59;
+                }
+            }            
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .container-galeria{
+        .base-img{
+            display: grid;
+
+            grid-template-areas:
+            "img1 img2" 
+            "img3 img4"
+            "img5 img6"
+            "img7 img8";
+        }
+        div{
+            img{
+                width: 40vh;
+            }
+        }
+        .galeria-img-1{
+            grid-area: img1;
+        }
+        .galeria-img-2{
+            grid-area: img2;
+        }
+        .galeria-img-3{
+            grid-area: img3;
+        }
+        .galeria-img-4{
+            grid-area: img4;
+        }
+        .galeria-img-5{
+            grid-area: img5;
+        }
+        .galeria-img-6{
+            grid-area: img6;
+        }
+        .galeria-img-7{
+            grid-area: img7;
+        }
+        .galeria-img-8{
+            grid-area: img8;
+        }
+        .galeria-img-9{
+            display: none;
+            img{
+                display: none;
+            }
+        }    
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container-galeria{
+        .base-img{
+            display: grid;
+
+            grid-template-areas:
+            "img1 img2 img3"
+            "img4 img5 img6"
+            "img7 img8 img9";
+        }
+        .galeria-img-1{
+            grid-area: img1;
+        }
+        .galeria-img-2{
+            grid-area: img2;
+        }
+        .galeria-img-3{
+            grid-area: img3;
+        }
+        .galeria-img-4{
+            grid-area: img4;
+        }
+        .galeria-img-5{
+            grid-area: img5;
+        }
+        .galeria-img-6{
+            grid-area: img6;
+        }
+        .galeria-img-7{
+            grid-area: img7;
+        }
+        .galeria-img-8{
+            grid-area: img8;
+        }
+        .galeria-img-9{
+            grid-area: img9;
+            img{
+                display: flex;
+            }
+        }    
+    }
+}
