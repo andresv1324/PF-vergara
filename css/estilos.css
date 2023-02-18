@@ -113,19 +113,7 @@ header {
       .container-index .cuerpo-informacion .cuerpo-parrafo-dos {
         display: grid; }
     .container-index .alan-walker-info {
-      grid-area: alan-walker-info; }
-  /* hola*/
-  footer {
-    grid-area: footer; }
-    footer .pie-pagina {
-      display: grid;
-      grid-template-columns: 1.5fr 1fr;
-      grid-template-rows: 1fr;
-      grid-template-areas: "pie-pagina-contenedor redes"; }
-      footer .pie-pagina .pie-pagina-contenedor {
-        grid-area: pie-pagina-contenedor; }
-      footer .pie-pagina .redes {
-        grid-area: area; } }
+      grid-area: alan-walker-info; } }
 
 /* Estilos Generales del Footer*/
 footer .pie-pagina {
@@ -137,3 +125,16 @@ footer .pie-pagina {
   footer .pie-pagina div .redes a .img {
     width: 45px;
     height: 40px; }
+
+@media screen and (min-width: 1024px) {
+  footer {
+    grid-area: footer; }
+    footer .pie-pagina {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "pie-pagina-contenedor redes"; }
+      footer .pie-pagina .pie-pagina-contenedor {
+        grid-area: pie-pagina-contenedor; }
+      footer .pie-pagina .redes {
+        grid-area: area; } }

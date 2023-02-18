@@ -23,3 +23,23 @@ footer{
     }
 }
 
+@media screen and (min-width:1024px){
+    footer{
+        grid-area: footer;
+        .pie-pagina{
+            display: grid;
+            grid-template-columns: 1.5fr 1fr;
+            grid-template-rows: 1fr;
+    
+            grid-template-areas:
+            "pie-pagina-contenedor redes";
+            .pie-pagina-contenedor{
+                grid-area: pie-pagina-contenedor;
+            }
+            .redes{
+                grid-area: area;
+            }
+        
+        }
+    }
+}
