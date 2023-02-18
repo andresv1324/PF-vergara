@@ -1,0 +1,29 @@
+/* Estilos Index Celulares */
+@media screen and (min-width:320px){
+    /* Index */
+    .container-index{
+        main{
+            margin: 0.5em;
+            h2{
+                filter: drop-shadow( 3px 0px 7px black);
+            }
+        }
+        div{
+            .cuerpo-parrafo-dos{
+                display: none;
+            }
+        
+        }
+        .alan-walker-info{
+            margin: 0.5em;
+            img{
+                filter: drop-shadow( 7px 7px 7px black);
+                width: 100%;
+            }
+            p{
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+    }
+}

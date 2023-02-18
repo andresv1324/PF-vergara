@@ -1,4 +1,7 @@
 /* Estilos generales */
+body {
+  background: #989bcc; }
+
 header {
   color: black; }
   header .bg-success {
@@ -30,3 +33,32 @@ header {
           z-index: 2; }
           header nav div div ul li .nav-link {
             padding: 0em; }
+
+/* Estilos Index Celulares */
+@media screen and (min-width: 320px) {
+  /* Index */
+  .container-index main {
+    margin: 0.5em; }
+    .container-index main h2 {
+      filter: drop-shadow(3px 0px 7px black); }
+  .container-index div .cuerpo-parrafo-dos {
+    display: none; }
+  .container-index .alan-walker-info {
+    margin: 0.5em; }
+    .container-index .alan-walker-info img {
+      filter: drop-shadow(7px 7px 7px black);
+      width: 100%; }
+    .container-index .alan-walker-info p {
+      font-weight: bold;
+      text-align: center; } }
+
+/* Estilos Generales del Footer*/
+footer .pie-pagina {
+  background-color: #313A59;
+  padding: 0.5em;
+  color: black; }
+  footer .pie-pagina div .pie-pagina-derechos {
+    margin-bottom: 0px; }
+  footer .pie-pagina div .redes a .img {
+    width: 45px;
+    height: 40px; }

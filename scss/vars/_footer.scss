@@ -1,0 +1,24 @@
+/* Estilos Generales del Footer*/
+
+footer{
+    .pie-pagina{
+        background-color:#313A59;  
+        padding: 0.5em; 
+        color: black;
+        div{
+            .pie-pagina-derechos{
+                margin-bottom: 0px;
+            }
+        }
+        div{
+            .redes{
+                a{
+                    .img{
+                        width: 45px;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
