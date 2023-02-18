@@ -2,6 +2,9 @@
 @media screen and (min-width:320px){
     /* Index */
     .container-index{
+        .cuerpo-informacion{
+            margin-left: 0.5em;
+        }
         main{
             margin: 0.5em;
             h2{
@@ -9,6 +12,9 @@
             }
         }
         div{
+            h2{
+                filter: drop-shadow( 7px 7px 7px black);
+            }
             .cuerpo-parrafo-dos{
                 display: none;
             }
@@ -24,6 +30,67 @@
                 font-weight: bold;
                 text-align: center;
             }
+        }
+    }
+}
+
+@media screen and (min-width:1024px){
+
+    /* estilos del contenedor */
+    /* estilos de los hijos del contendor */
+
+.container-index{
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 1em;
+
+        grid-template-areas: 
+            "main main"
+            "cuerpo-informacion alan-walker-info"
+            "cuerpo-informacion alan-walker-info"
+            "footer footer";
+        
+            main{
+                grid-area: main;
+            }
+            .cuerpo-informacion{
+                grid-area: cuerpo-informacion;
+                margin-left: 0.5em;
+                h2{
+                    filter: drop-shadow( 3px 0px 7px black);
+                }
+                .cuerpo-parrafo-dos{
+                    display: grid;
+                }
+            }
+            .alan-walker-info{
+                grid-area: alan-walker-info;
+            }
+    }
+
+
+/* hola*/
+
+
+
+
+    footer{
+        grid-area: footer;
+        .pie-pagina{
+            display: grid;
+            grid-template-columns: 1.5fr 1fr;
+            grid-template-rows: 1fr;
+    
+            grid-template-areas:
+            "pie-pagina-contenedor redes";
+            .pie-pagina-contenedor{
+                grid-area: pie-pagina-contenedor;
+            }
+            .redes{
+                grid-area: area;
+            }
+        
         }
     }
 }
