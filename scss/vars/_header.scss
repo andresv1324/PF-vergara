@@ -1,0 +1,19 @@
+// Estilos Generales del header
+
+@media screen and (min-width:1024px){
+    header{
+        nav{
+            div{
+                .collapse{
+                    ul{
+                        li:hover{
+                            background-color: #7074a3;
+                            box-shadow: 2px 2px 2px;
+                            transform: scale(0.9);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
