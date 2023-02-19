@@ -6,7 +6,7 @@
         main{
             h2{
                 margin: $margen-texto;
-                filter: drop-shadow( 3px 0px 7px black);
+                filter: $sombras;
             }
             p{
                 margin: $margen-texto2;

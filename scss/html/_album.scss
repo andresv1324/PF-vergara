@@ -7,7 +7,7 @@
             div{
                 margin: $margen-texto;
                 h2{
-                    filter: drop-shadow( 3px 0px 7px black);
+                    filter: $sombras;
                 }
             }
             .lista-exitos{
@@ -21,7 +21,7 @@
                 h3{
                     margin: $margen-texto;
                     padding-top: $margen-texto3;
-                    filter: drop-shadow( 3px 0px 7px black);
+                    filter: $sombras;
                 }
                 .faded-1{
                     margin: $margen-texto;
@@ -40,7 +40,7 @@
         } 
         .titulo-carousel{
             margin: $margen-texto2;
-            filter: drop-shadow( 3px 0px 7px black);
+            filter: $sombras;
 
         }
         .titulo-base-2{
@@ -78,10 +78,9 @@
             display: none;
         }
         .canciones-base2{
-            display: grid;
+            @include grid;
             justify-items: center;
             grid-template-columns: 1fr 1fr;
-            gap: 1em;
             margin: 1em;
 
             grid-template-areas: 
@@ -121,10 +120,9 @@
 @media screen and (min-width:1024px){
     .container-album{
         main{
-            display: grid;
+            @include grid;
             grid-template-columns: 1.5fr 1fr;
             grid-template-rows: 1fr;
-            gap: 1em;
 
             grid-template-areas:
             "subtitulo iframe"
@@ -144,8 +142,7 @@
         }
         .sencillos{
             margin-top: 2em;
-            display: grid;
-            gap: 1em;
+            @include grid;
             .sencillos-faded{
                 margin: $margen-texto2;
                 display: inline-flex;

@@ -1,4 +1,5 @@
 @import "../vars/variables";
+@import "../vars/mixin";
 
 /* Estilos Index Celulares*/
 @media screen and (min-width:320px){
@@ -61,10 +62,9 @@
     /* estilos de los hijos del contendor */
 
 .container-index{
-        display: grid;
+        @include grid;
         grid-template-columns: 1.5fr 1fr;
         grid-template-rows: 1fr;
-        gap: 1em;
 
         grid-template-areas: 
             "main main"
