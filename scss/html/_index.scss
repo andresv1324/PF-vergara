@@ -22,11 +22,14 @@
         }
         .alan-walker-info{
             margin: 0.5em;
+            div{
+                display: none;
+            }
             img{
                 filter: drop-shadow( 7px 7px 7px black);
                 width: 100%;
             }
-            p{
+            .alan-walker-nombre{
                 font-weight: bold;
                 text-align: center;
             }
@@ -34,8 +37,22 @@
     }
 }
 /* Estilos Index Tablet*/
-@media screen and (max-width:600px){
-    
+@media screen and (min-width:600px) and(max-width:1023px){
+    .container-index{
+        .cuerpo-informacion{
+
+        }
+        .alan-walker-info{
+            text-align: center;
+            .text-info1{
+                display: inline-block;
+                filter: drop-shadow( 7px 7px 7px black);
+            }
+            img{
+                width: 50%;
+            }
+        }
+    }    
 }
 
 /* Estilos Index Escritorio*/

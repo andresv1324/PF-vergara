@@ -65,14 +65,25 @@ header {
     display: none; }
   .container-index .alan-walker-info {
     margin: 0.5em; }
+    .container-index .alan-walker-info div {
+      display: none; }
     .container-index .alan-walker-info img {
       filter: drop-shadow(7px 7px 7px black);
       width: 100%; }
-    .container-index .alan-walker-info p {
+    .container-index .alan-walker-info .alan-walker-nombre {
       font-weight: bold;
       text-align: center; } }
 
 /* Estilos Index Tablet*/
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  .container-index .alan-walker-info {
+    text-align: center; }
+    .container-index .alan-walker-info .text-info1 {
+      display: inline-block;
+      filter: drop-shadow(7px 7px 7px black); }
+    .container-index .alan-walker-info img {
+      width: 50%; } }
+
 /* Estilos Index Escritorio*/
 @media screen and (min-width: 1024px) {
   /* estilos del contenedor */
