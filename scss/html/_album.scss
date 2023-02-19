@@ -1,9 +1,11 @@
+@import "../vars/variables";
+
 /* Estilos Album Celulares*/
 @media screen and (min-width:320px){
     .container-album{
         main{
             div{
-                margin: 0.5em;
+                margin: $margen-texto;
                 h2{
                     filter: drop-shadow( 3px 0px 7px black);
                 }
@@ -17,19 +19,19 @@
             margin-bottom: 2em;
             .sencillos-faded{
                 h3{
-                    margin: 0.5em;
-                    padding-top: 1.5em;
+                    margin: $margen-texto;
+                    padding-top: $margen-texto3;
                     filter: drop-shadow( 3px 0px 7px black);
                 }
                 .faded-1{
-                    margin: 0.5em;
+                    margin: $margen-texto;
 
                 }
                 .faded-2{
                     display: none;
                 }
                 .video-faded{
-                    padding: 0.5em;
+                    padding: $margen-texto;
                 }
             }
             .sencillos-alone{
@@ -37,7 +39,7 @@
             }
         } 
         .titulo-carousel{
-            margin: 0.8em;
+            margin: $margen-texto2;
             filter: drop-shadow( 3px 0px 7px black);
 
         }
@@ -45,7 +47,7 @@
             display: none;
         }
         .carousel{
-            margin: 0.8em;
+            margin: $margen-texto2;
         }
         .canciones-base2{
             display: none;
@@ -57,7 +59,7 @@
     .container-album{
         .album{
             .lista-exitos{
-                padding-bottom: 1.5em;
+                padding-bottom: $margen-texto3;
                 iframe{
                     margin-left: auto;
                     margin-right: auto;
@@ -68,7 +70,7 @@
             .sencillos-faded{
                 display: flex;
                 div{
-                    padding-bottom: 1.5em;
+                    padding-bottom: $margen-texto3;
                 }
             }
         }
@@ -136,7 +138,7 @@
                 }
             }
             .lista-exitos{
-                margin-top: 1.5em;
+                margin-top: $margen-texto3;
                 grid-area: iframe;
             }
         }
@@ -145,7 +147,7 @@
             display: grid;
             gap: 1em;
             .sencillos-faded{
-                margin: 0.8em;
+                margin: $margen-texto2;
                 display: inline-flex;
                 gap: 1em;
                 .faded-2{
@@ -153,7 +155,7 @@
                 }
             }
             .sencillos-alone{
-                margin: 0.8em;
+                margin: $margen-texto2;
                 display: inline-flex;
                 gap: 1em;
             }
@@ -166,7 +168,7 @@
         }
         .titulo-base-2{
             display: inline-block;
-            margin: 0.8em;
+            margin: $margen-texto2;
             filter: drop-shadow( 3px 0px 7px black);   
         }
 

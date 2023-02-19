@@ -1,12 +1,14 @@
+@import "../vars/variables";
+
 /* Estilos Index Celulares*/
 @media screen and (min-width:320px){
     /* Index */
     .container-index{
         .cuerpo-informacion{
-            margin-left: 0.5em;
+            margin-left: $margen-texto;
         }
         main{
-            margin: 0.5em;
+            margin: $margen-texto;
             h2{
                 filter: drop-shadow( 3px 0px 7px black);
             }
@@ -21,7 +23,7 @@
         
         }
         .alan-walker-info{
-            margin: 0.5em;
+            margin: $margen-texto;
             div{
                 display: none;
             }
@@ -75,7 +77,7 @@
             }
             .cuerpo-informacion{
                 grid-area: cuerpo-informacion;
-                margin-left: 0.5em;
+                margin-left: $margen-texto;
                 h2{
                     filter: drop-shadow( 3px 0px 7px black);
                 }

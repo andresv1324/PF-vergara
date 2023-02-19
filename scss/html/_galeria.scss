@@ -3,7 +3,7 @@
     .container-galeria{
         div{
             main{
-                margin: 0.8em;
+                margin: $margen-texto2;
                 filter: drop-shadow( 3px 0px 7px black);
             }
         }
@@ -12,10 +12,10 @@
             div{
                 display: flex;
                 justify-content: center;
-                margin-bottom: 1.5em;
+                margin-bottom: $margen-texto3;
 
                 img{
-                    border: solid #313A59;
+                    border: solid $color-terciario;
                 }
             }            
         }
