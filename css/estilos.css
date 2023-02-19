@@ -239,22 +239,59 @@ header {
     filter: drop-shadow(3px 0px 7px black); }
   .container-contacto main p {
     margin: 0.8em; }
-  .container-contacto .formulario-seccion {
-    margin: 0.6em; }
+  .container-contacto main .info-correo {
+    display: none; }
+  .container-contacto .formulario-seccion form {
+    padding: 10px;
+    margin: auto;
+    border-radius: 3px;
+    width: 310px;
+    background-color: #7274a2; }
     .container-contacto .formulario-seccion form div {
       margin: 1em 0em 1em 0em; }
       .container-contacto .formulario-seccion form div label {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         display: block; }
+      .container-contacto .formulario-seccion form div input {
+        padding: 6px;
+        width: 280px; }
+      .container-contacto .formulario-seccion form div .form {
+        width: 280px; }
     .container-contacto .formulario-seccion form .mensaje {
       display: block;
       width: 290px;
       height: auto; }
-    .container-contacto .formulario-seccion form div .boton1 {
-      background-color: #494c74; }
-    .container-contacto .formulario-seccion form div .boton1:hover {
-      transform: scale(0.9); } }
+    .container-contacto .formulario-seccion form .container-boton {
+      text-align: center; }
+      .container-contacto .formulario-seccion form .container-boton .boton1 {
+        background-color: #494c74; }
+      .container-contacto .formulario-seccion form .container-boton .boton1:hover {
+        transform: scale(0.9); } }
+
+@media screen and (min-width: 600px) {
+  .container-contacto main .info-correo {
+    display: block; }
+    .container-contacto main .info-correo .info-correo1 {
+      font-weight: bold; }
+    .container-contacto main .info-correo .icon {
+      display: none; } }
+
+@media screen and (min-width: 1024px) {
+  .container-contacto {
+    display: flex;
+    padding: 1em 1em 0em 0em;
+    gap: 2em; }
+    .container-contacto main .info-correo .container-correo {
+      display: flex;
+      margin-left: 0.8em;
+      gap: 1em; }
+      .container-contacto main .info-correo .container-correo .info-correo2 {
+        text-align: center; }
+      .container-contacto main .info-correo .container-correo .icon {
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto; } }
 
 /* Estilos Generales del Footer*/
 footer {

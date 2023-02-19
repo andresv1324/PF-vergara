@@ -8,10 +8,18 @@
             p{
                 margin: 0.8em;
             }
+            .info-correo{
+                display: none;
+            }
         }
         .formulario-seccion{
-            margin: 0.6em;
+
             form{
+                padding: 10px;
+                margin: auto;
+                border-radius: 3px;
+                width: 310px;
+                background-color: #7274a2;
                 div{
                     margin: 1em 0em 1em 0em;
                     label{
@@ -19,13 +27,21 @@
                         font-weight: bold;
                         display: block;
                     }
+                    input{
+                        padding: 6px;
+                        width: 280px;
+                    }
+                    .form{
+                        width: 280px;
+                    }
                 }
                 .mensaje{
                     display: block;
                     width: 290px;
                     height: auto;
                 }
-                div{
+                .container-boton{
+                    text-align:center ;
                     .boton1{
                         background-color: #494c74;
                     }
@@ -39,9 +55,43 @@
 }
 
 @media screen and (min-width: 600px){
-    
+    .container-contacto {
+        main{
+            .info-correo{
+                display:block;
+                .info-correo1{
+                    font-weight: bold;
+                }
+                .icon{
+                    display: none;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 1024px){
-    
+    .container-contacto{
+        display: flex;
+        padding: 1em 1em 0em 0em;
+        gap: 2em;
+        main{
+            .info-correo{
+                .container-correo{
+                    display: flex;
+                    margin-left: 0.8em;
+                    gap: 1em;
+                    .info-correo2{
+                        text-align: center;
+                    }
+                    .icon{
+                        display: flex;
+                        margin-top: auto;
+                        margin-bottom: auto;
+                    }
+                }
+                
+            }
+        }
+    }
 }
