@@ -52,6 +52,69 @@
         }
     }
 }
+
+@media screen and (min-width:600px) and (max-width:1023px){
+    .container-album{
+        .album{
+            .lista-exitos{
+                padding-bottom: 1.5em;
+                iframe{
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        }
+        .sencillos{
+            .sencillos-faded{
+                display: flex;
+                div{
+                    padding-bottom: 1.5em;
+                }
+            }
+        }
+        .carousel{
+            display: none;
+        }
+        .canciones-base2{
+            display: grid;
+            justify-items: center;
+            grid-template-columns: 1fr 1fr;
+            gap: 1em;
+            margin: 1em;
+
+            grid-template-areas: 
+            "diamond titanic"
+            "tired spectre"
+            "darkside singme";
+
+            .diamond{
+                grid-area: diamond;
+            }
+            .titanic{
+                grid-area: titanic;
+            }
+            .tired{
+                grid-area: tired;
+            }
+            .spectre{
+                grid-area: spectre;
+            }
+            .darkside{
+                grid-area: darkside;
+            }
+            .singme{
+                grid-area: singme;
+            }
+            .base2{
+                iframe{
+                    width: 260px;
+                    height: 130px ;
+                }
+            }
+        }
+    }
+}
+
 /* Estilos Album Escritorio*/
 @media screen and (min-width:1024px){
     .container-album{

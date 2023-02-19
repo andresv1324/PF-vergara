@@ -139,6 +139,41 @@ header {
   .container-album .canciones-base2 {
     display: none; } }
 
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  .container-album .album .lista-exitos {
+    padding-bottom: 1.5em; }
+    .container-album .album .lista-exitos iframe {
+      margin-left: auto;
+      margin-right: auto; }
+  .container-album .sencillos .sencillos-faded {
+    display: flex; }
+    .container-album .sencillos .sencillos-faded div {
+      padding-bottom: 1.5em; }
+  .container-album .carousel {
+    display: none; }
+  .container-album .canciones-base2 {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    margin: 1em;
+    grid-template-areas: "diamond titanic" "tired spectre" "darkside singme"; }
+    .container-album .canciones-base2 .diamond {
+      grid-area: diamond; }
+    .container-album .canciones-base2 .titanic {
+      grid-area: titanic; }
+    .container-album .canciones-base2 .tired {
+      grid-area: tired; }
+    .container-album .canciones-base2 .spectre {
+      grid-area: spectre; }
+    .container-album .canciones-base2 .darkside {
+      grid-area: darkside; }
+    .container-album .canciones-base2 .singme {
+      grid-area: singme; }
+    .container-album .canciones-base2 .base2 iframe {
+      width: 260px;
+      height: 130px; } }
+
 /* Estilos Album Escritorio*/
 @media screen and (min-width: 1024px) {
   .container-album main {
