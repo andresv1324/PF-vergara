@@ -10,12 +10,12 @@
         main{
             margin: $margen-texto;
             h2{
-                filter: drop-shadow( 3px 0px 7px black);
+                filter: $sombras;
             }
         }
         div{
             h2{
-                filter: drop-shadow( 7px 7px 7px black);
+                filter: $sombras;
             }
             .cuerpo-parrafo-dos{
                 display: none;
@@ -28,7 +28,7 @@
                 display: none;
             }
             img{
-                filter: drop-shadow( 7px 7px 7px black);
+                filter: $sombras;
                 width: 100%;
             }
             .alan-walker-nombre{
@@ -45,7 +45,7 @@
             text-align: center;
             .text-info1{
                 display: inline-block;
-                filter: drop-shadow( 7px 7px 7px black);
+                filter: $sombras;
             }
             img{
                 width: 50%;
@@ -79,7 +79,7 @@
                 grid-area: cuerpo-informacion;
                 margin-left: $margen-texto;
                 h2{
-                    filter: drop-shadow( 3px 0px 7px black);
+                    filter: $sombras;
                 }
                 .cuerpo-parrafo-dos{
                     display: grid;
