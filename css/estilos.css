@@ -357,6 +357,8 @@ footer {
 
 @media screen and (min-width: 1024px) {
   footer {
+    position: absolute;
+    bottom: 0;
     grid-area: footer; }
     footer .pie-pagina {
       display: grid;
