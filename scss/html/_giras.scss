@@ -1,5 +1,6 @@
 @import "../vars/variables";
 @import "../vars/mixin";
+@import "../vars/extend";
 
 /* Estilos Giras Celulares*/
 @media screen and (min-width:320px){
@@ -43,11 +44,10 @@
                 .menu-tour{
                     .menu-fecha{
                         background-color: $color-principal;
-                        display: flex;
+                        @include flex-a;
                         @include espacios;
                         padding: 0.3em ;
                         gap: 0.5em;
-                        text-align: center;
                         .boton-compra1{
                             margin-top: 1em;
                             button{
@@ -70,12 +70,11 @@
     .container-giras{
         .lista{
             .menu-tour{
-                background-color: $color-principal;          
-                display: flex;
+                background-color: $color-principal;
+                @include flex-a;
                 @include espacios;
                 padding: 0.3em ;
-                gap: $margen-texto;                    
-                text-align: center;
+                gap: $margen-texto;        
                 display: inline-block;
                 width: 90%;
 

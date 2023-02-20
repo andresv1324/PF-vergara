@@ -50,8 +50,17 @@ header {
     box-shadow: 2px 2px 2px;
     transform: scale(0.9); } }
 
-.container-index {
-  background-color: aqua; }
+.flex-j {
+  display: flex;
+  justify-content: center; }
+
+.flex-a {
+  display: flex;
+  text-align: center; }
+
+.inline-f {
+  display: inline-flex;
+  gap: 1em; }
 
 /* Estilos Index Celulares*/
 @media screen and (min-width: 320px) {
@@ -108,6 +117,18 @@ header {
         display: grid; }
     .container-index .alan-walker-info {
       grid-area: alan-walker-info; } }
+
+.flex-j {
+  display: flex;
+  justify-content: center; }
+
+.flex-a {
+  display: flex;
+  text-align: center; }
+
+.inline-f {
+  display: inline-flex;
+  gap: 1em; }
 
 /* Estilos Album Celulares*/
 @media screen and (min-width: 320px) {
@@ -362,6 +383,18 @@ header {
         margin-top: auto;
         margin-bottom: auto; } }
 
+.flex-j {
+  display: flex;
+  justify-content: center; }
+
+.flex-a {
+  display: flex;
+  text-align: center; }
+
+.inline-f {
+  display: inline-flex;
+  gap: 1em; }
+
 /* Estilos Giras Celulares*/
 @media screen and (min-width: 320px) {
   .container-giras main {
@@ -389,12 +422,12 @@ header {
   .container-giras .lista .menu-tour .menu-fecha {
     background-color: #7274a2;
     display: flex;
+    text-align: center;
     border-radius: 4px;
     border: solid 1.3px;
     margin: 1em 2.5em 1em 2.5em;
     padding: 0.3em;
-    gap: 0.5em;
-    text-align: center; }
+    gap: 0.5em; }
     .container-giras .lista .menu-tour .menu-fecha .boton-compra1 {
       margin-top: 1em; }
       .container-giras .lista .menu-tour .menu-fecha .boton-compra1 button {
@@ -409,12 +442,12 @@ header {
   .container-giras .lista .menu-tour {
     background-color: #7274a2;
     display: flex;
+    text-align: center;
     border-radius: 4px;
     border: solid 1.3px;
     margin: 1em 2.5em 1em 2.5em;
     padding: 0.3em;
     gap: 0.5em;
-    text-align: center;
     display: inline-block;
     width: 90%; }
     .container-giras .lista .menu-tour .menu-fecha {

@@ -1,21 +1,43 @@
 
 //solo dos
-%flex-justity{
+@mixin flex-j{
     display: flex;
     justify-content: center;
 }
 
-//solo dos
-%flex-align{
+%flex-justity{
+    @include flex-j;
+}
+
+.flex-j{
+    @extend %flex-justity;
+}
+
+
+@mixin flex-a{
     display: flex;
     text-align: center;
 }
 
-%inline-flex{
+%flex-align{
+    @include flex-a()    
+}
+
+.flex-a{
+    @extend %flex-align;
+}
+
+
+@mixin inline-f{
     display: inline-flex;
     gap: 1em;
 }
 
-%medidas{
-    width: 280px;
+%inline-flex{
+    @include inline-f()
 }
+
+.inline-f{
+    @extend %inline-flex
+}
+

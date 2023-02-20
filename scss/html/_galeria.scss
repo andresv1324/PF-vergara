@@ -10,8 +10,7 @@
         
         .base-img{
             div{
-                display: flex;
-                justify-content: center;
+                @include flex-j;
                 margin-bottom: $margen-texto3;
 
                 img{

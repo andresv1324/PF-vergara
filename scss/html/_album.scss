@@ -1,4 +1,5 @@
 @import "../vars/variables";
+@import "../vars/extend";
 
 /* Estilos Album Celulares*/
 @media screen and (min-width:320px){
@@ -11,8 +12,7 @@
                 }
             }
             .lista-exitos{
-                display: flex;
-                justify-content: center;
+                @include flex-j 
             }
         }
         .sencillos{
@@ -153,8 +153,7 @@
             }
             .sencillos-alone{
                 margin: $margen-texto2;
-                display: inline-flex;
-                gap: 1em;
+                @include inline-f;
             }
         }
         .titulo-carousel{

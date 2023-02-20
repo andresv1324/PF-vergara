@@ -2,10 +2,6 @@
 @import "../vars/mixin";
 @import "../vars/extend";
 
-.container-index{
-    @extend %botones;
-}
-
 /* Estilos Index Celulares*/
 @media screen and (min-width:320px){
     /* Index */
