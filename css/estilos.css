@@ -117,7 +117,7 @@ header {
       filter: drop-shadow(3px 0px 7px black); }
   .container-album main .lista-exitos {
     display: flex;
-    justify-items: center; }
+    justify-content: center; }
   .container-album .sencillos {
     margin-bottom: 2em; }
     .container-album .sencillos .sencillos-faded h3 {
@@ -327,7 +327,7 @@ header {
         width: 280px; }
     .container-contacto .formulario-seccion form .mensaje {
       display: block;
-      width: 290px;
+      width: 280px;
       height: auto; }
     .container-contacto .formulario-seccion form .container-boton {
       text-align: center; }

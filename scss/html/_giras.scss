@@ -70,7 +70,8 @@
     .container-giras{
         .lista{
             .menu-tour{
-                background-color: $color-principal;          display: flex;
+                background-color: $color-principal;          
+                display: flex;
                 @include espacios;
                 padding: 0.3em ;
                 gap: $margen-texto;                    

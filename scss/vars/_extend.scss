@@ -2,3 +2,24 @@
 %botones{
     background-color: aqua;
 }
+
+//solo dos
+%flex-justity{
+    display: flex;
+    justify-content: center;
+}
+
+//solo dos
+%flex-align{
+    display: flex;
+    text-align: center;
+}
+
+%inline-flex{
+    display: inline-flex;
+    gap: 1em;
+}
+
+%medidas{
+    width: 280px;
+}

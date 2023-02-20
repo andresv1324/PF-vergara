@@ -12,7 +12,7 @@
             }
             .lista-exitos{
                 display: flex;
-                justify-items: center;
+                justify-content: center;
             }
         }
         .sencillos{
@@ -166,7 +166,7 @@
         .titulo-base-2{
             display: inline-block;
             margin: $margen-texto2;
-            filter: drop-shadow( 3px 0px 7px black);   
+            filter: $sombras;   
         }
 
         .canciones-base2{
